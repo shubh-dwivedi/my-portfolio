@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <h1 >Shubham's Component Library</h1>
-    <p>I am attending neog.camp and I want to make a component library which would make all my projects look good and consistent.</p>
+    <h1>Shubham's Component Library</h1>
+    <p>I am attending neog.camp and I want to make a component library which would make all my projects look good and
+        consistent.</p>
 
     <hr>
 
@@ -25,7 +26,7 @@
     <small>This is relatively smaller text</small>
 
     <hr>
-    
+
 
     <h2>@container</h2>
 
@@ -41,7 +42,7 @@
     <h2>@links</h2>
 
 
-    <a class="link-primary link" href="/" >Primary Link</a>
+    <a class="link-primary link" href="/">Primary Link</a>
     <a class="link-secondary link" href="/">Secondary Link</a>
 
     <hr>
@@ -50,22 +51,23 @@
 
 
     <h3>unordered list</h3>
-    <ul>
+    <p>This list will not have bullets</p>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list-non-bullet ">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
 
     </ul>
 
     <h3>reversed ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>eggs</li>
         <li>bread</li>
@@ -76,13 +78,19 @@
     <h2>@nav</h2>
 
 
-    <nav>
-        IamADeveloper
-        <ul>
-            <li>
-                <a href="/">home</a>
-                <a href="/">products</a>
-                <a href="/">about</a>
+    <nav class="navigation container">
+        <div class="nav-brand">I am a Developer</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -91,11 +99,49 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="images\hero.svg" />
-        <h1>heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-image" src="images\hero.svg" />
+        <h1 class="hero-heading ">shubh baalak is a <span style="color: var(--primary-color)">web developer</span></h1>
     </header>
 
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>White section</h1>
+            <p>This will have white background</p>
+        </div>
+    </section>
+
+    <section class="section section-ow">
+        <div class="container container-center">
+            <h1>Off white section</h1>
+            <p>This will have gray background</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">
+            Some small heading inside footer
+        </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline ">
+                <a class="link" href="/">SocialOne</a>
+            </li>
+
+            <li class="list-item-inline ">
+                <a class="link" href="/">SocialTwo</a>
+            </li>
+
+            <li class="list-item-inline ">
+                <a class="link" href="/">SocialThree</a>
+            </li>
+        </ul>
+    </footer>
 
 </body>
 
