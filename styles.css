@@ -5,6 +5,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 hr {
@@ -12,7 +16,7 @@ hr {
 }
 
 :root {
-    --primary-color: #7C3AED;
+    --primary-color: #00C0FF;
     --dark-gray: #6B7280;
     --light-gray: #F3F4F6;
 }
@@ -129,7 +133,7 @@ footer {
     color: white;
     text-align: center;
     border-top-right-radius: 1rem;
-    
+    margin-top: auto;
 }
 
 .footer .link {
