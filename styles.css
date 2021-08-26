@@ -1,14 +1,15 @@
-/* this is a comment */
+/* importing font from google font api */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 85%;
 }
 
 hr {
@@ -31,8 +32,8 @@ hr {
     margin: auto;
 }
 
-/** links **/
 
+/** links **/
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -41,18 +42,17 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     color: white;
-    border-radius: 0.5rem;
-    margin: 1rem 0rem;
+    border-radius: 50rem;
+    margin: 1rem 0.5rem 1rem 0rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 50rem;
 }
 
 /** lists **/
-
 .list-non-bullet {
     list-style: none;
 }
@@ -62,8 +62,12 @@ hr {
     padding: 0rem 0.5rem;
 }
 
-/** link **/
+.list-content-center {
+    text-align: center;
+    list-style-type: none;
+}
 
+/** navigation **/
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -91,7 +95,6 @@ hr {
 }
 
 /** header **/
-
 .hero {
     padding: 2rem;
     padding-top: 5rem;
@@ -111,7 +114,6 @@ hr {
 }
 
 /** sections **/
-
 .section {
     padding: 2rem;
     
@@ -126,7 +128,6 @@ hr {
 }
 
 /** footer **/
-
 footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
