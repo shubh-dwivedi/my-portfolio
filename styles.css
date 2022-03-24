@@ -88,6 +88,7 @@ li {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
+    color: white;
 }
 
 .navigation .nav-pills {
@@ -97,6 +98,13 @@ li {
 .navigation .link-active {
     font-weight: bold;
 }
+
+a.nostyle:link, a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    /* cursor: auto; */
+}
+
 
 /** header **/
 .hero {
