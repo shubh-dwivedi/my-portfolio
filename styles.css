@@ -24,11 +24,11 @@ hr {
 
 /** containers **/
 .container {
-    padding: 0rem 1rem;
+    padding: 0rem 1rem 0 1rem;
 }
 
 .container-center {
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     margin: auto;
 }
@@ -75,8 +75,9 @@ li {
     list-style-type: none;
 }
 
-.project-list .section-ow {
-    max-width: 900px;
+.list-content-center{
+    max-width: 950px;
+    padding-inline-start: 0;
 }
 
 /** navigation **/
@@ -97,6 +98,14 @@ li {
     font-weight: bold;
     font-size: 1.1rem;
     color: white;
+    border-top: 1px;
+    border-bottom: 3px;
+    border-left: 1px;
+    border-right: 3px;
+    border-color: #F3F4F6;
+    border-style: solid;
+    width: fit-content;
+    padding: 0.2rem;
 }
 
 .navigation .nav-pills {
@@ -110,7 +119,6 @@ li {
 a.nostyle:link, a.nostyle:visited {
     text-decoration: inherit;
     color: inherit;
-
 }
 
 
@@ -191,7 +199,7 @@ a.nostyle:link, a.nostyle:visited {
 }
 
 .showcase-list {
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   border-radius: 1rem;
   text-align: center;
   margin: 3rem auto;
@@ -237,3 +245,35 @@ footer {
 }
 
 
+@media screen and (max-width: 750px) {
+    .hero-index {
+        flex-direction: column;
+    }
+
+    .hero-tagline .tagline {
+        font-size: 300%;
+    }
+
+    .list-item-block {
+        display: block;
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    .list-non-bullet {
+        padding-inline-start: 0;
+    }
+
+    .hero {
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+
+    .section {
+        padding: 1rem;
+    }
+
+    .section .container {
+        padding: 0;
+    }
+}
