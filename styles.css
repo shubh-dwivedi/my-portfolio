@@ -56,6 +56,7 @@ hr {
     /* margin: 2rem 0.5rem 1rem 0rem; */
 }
 
+
 /** lists **/
 li {
     margin: 2rem auto;
@@ -73,11 +74,16 @@ li {
 .list-content-center {
     text-align: center;
     list-style-type: none;
-}
-
-.list-content-center{
     max-width: 950px;
     padding-inline-start: 0;
+}
+
+.list-projects li{
+    margin: 1rem auto;
+}
+
+.list-projects {
+    margin: 1rem auto;
 }
 
 /** navigation **/
@@ -98,12 +104,7 @@ li {
     font-weight: bold;
     font-size: 1.1rem;
     color: white;
-    border-top: 1px;
-    border-bottom: 3px;
-    border-left: 1px;
-    border-right: 3px;
-    border-color: #F3F4F6;
-    border-style: solid;
+    border: 3px solid #F3F4F6;
     width: fit-content;
     padding: 0.2rem;
 }
@@ -163,12 +164,9 @@ a.nostyle:link, a.nostyle:visited {
     padding-top: 2rem;
     text-align: center;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
-.projects-heading {
-    font-size: 2.5rem;
-}
 
 /** sections **/
 .section {
@@ -202,7 +200,7 @@ a.nostyle:link, a.nostyle:visited {
   padding: 2rem 1rem;
   border-radius: 1rem;
   text-align: center;
-  margin: 3rem auto;
+  margin: 1rem auto;
 }
 
 /** footer **/
@@ -245,7 +243,7 @@ footer {
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
     .hero-index {
         flex-direction: column;
     }
@@ -265,8 +263,11 @@ footer {
     }
 
     .hero {
-        padding: 1rem;
-        padding-top: 2rem;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .hero-projects .hero-image{
+        max-width:100%;
     }
 
     .section {
@@ -275,5 +276,10 @@ footer {
 
     .section .container {
         padding: 0;
+    }
+
+    .showcase-list{
+        padding: 2rem 0.5rem;
+        margin: auto;
     }
 }
