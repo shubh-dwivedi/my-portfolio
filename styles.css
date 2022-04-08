@@ -282,4 +282,21 @@ footer {
         padding: 2rem 0.5rem;
         margin: auto;
     }
+
+    .footer img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .footer figure{
+        margin: auto 1rem;
+    }
+
+    .footer .footer-header {
+        font-size: 1.20rem;
+    }
+
+    .footer figcaption {
+        display: none;
+    }
 }
