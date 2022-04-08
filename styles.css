@@ -52,8 +52,7 @@ hr {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 50rem;
-    margin: 1rem;
-    /* margin: 2rem 0.5rem 1rem 0rem; */
+    margin: 2rem 1rem;
 }
 
 
@@ -271,7 +270,7 @@ footer {
     }
 
     .section {
-        padding: 1rem;
+        padding: 2rem 1rem;
     }
 
     .section .container {
