@@ -123,15 +123,16 @@ a.nostyle:link, a.nostyle:visited {
 
 
 /** header **/
-.hero {
-    padding: 2rem;
-    padding-top: 5rem;
-}
 
 .hero-index {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
+    padding: 5rem 2rem 1rem 3rem;
+}
+
+.hero-projects {
+    padding: 5rem 1rem 1rem 1rem;
 }
 
 .hero-tagline .tagline{
@@ -196,10 +197,15 @@ a.nostyle:link, a.nostyle:visited {
 }
 
 .showcase-list {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
+  padding-bottom: 2.5rem;
   border-radius: 1rem;
   text-align: center;
-  margin: 1rem auto;
+  margin: auto;
+}
+
+.showcase-list p {
+    padding-bottom: 0.5rem;
 }
 
 /** footer **/
@@ -240,7 +246,6 @@ footer {
     width: fit-content;
     height: fit-content;
 }
-
 
 @media screen and (max-width: 780px) {
     .hero-index {
