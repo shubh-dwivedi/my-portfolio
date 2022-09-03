@@ -247,7 +247,7 @@ footer {
     height: fit-content;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
     .hero-index {
         flex-direction: column;
     }
@@ -302,5 +302,11 @@ footer {
 
     .footer figcaption {
         display: none;
+    }
+
+    .extra-buttons a {
+        display: block;
+        width: max-content;
+        margin: 1rem auto;
     }
 }
