@@ -190,6 +190,8 @@ a.nostyle:link, a.nostyle:visited {
 
 .ow {
     background-color: var(--light-gray);
+    border: 2px solid var(--light-gray);
+    border-radius: 1rem;
 }
 
 .ow-border {
