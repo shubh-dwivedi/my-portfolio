@@ -307,6 +307,12 @@ footer {
   }
 
 @media screen and (max-width: 768px) {
+    .container-center {
+        max-width: 100%;
+        width: auto;
+        margin: auto;
+    }
+
     .hero-index {
         flex-direction: column;
     }
@@ -381,5 +387,5 @@ footer {
     .logos-slide img {
         height: 50px;
         margin: 0 15px;
-      }
+    }
 }
