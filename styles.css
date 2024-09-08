@@ -233,7 +233,12 @@ footer {
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
+}
+
+.footer .footer-bottom {
+    font-size: 0.8rem;
+    padding-bottom: 20px;
 }
 
 .footer ul {
@@ -352,6 +357,12 @@ footer {
         margin: auto;
     }
 
+    .showcase-list a{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
     .footer img {
         width: 2.5rem;
         height: 2.5rem;
@@ -362,7 +373,12 @@ footer {
     }
 
     .footer .footer-header {
-        font-size: 1.20rem;
+        font-size: 1.15rem;
+    }
+
+    .footer .footer-bottom {
+        font-size: 0.5rem;
+        margin-bottom: 20px;
     }
 
     .footer figcaption {
