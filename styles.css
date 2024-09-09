@@ -302,9 +302,9 @@ footer {
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
 
-.logos:hover .logos-slide {
+/* .logos:hover .logos-slide {
   animation-play-state: paused;
-}
+} */
 
 .logos-slide {
   display: inline-block;
@@ -317,19 +317,14 @@ footer {
   margin-bottom: 0;
 }
 
-.logos-slide img:hover {
-  height: 90px;
-  margin: auto 20px;
-}
-
-.hide-1,.hide-2,.hide-3,.hide-4,.hide-5 {
-  /* display: none; */
-}
+/* .hide-1,.hide-2,.hide-3,.hide-4,.hide-5 {
+  display: none;
+} */
     
-.linkedin:hover + .hide-1 {
-  /* display: block;
-  color: #fff; */
-}
+/* .linkedin:hover + .hide-1 {
+  display: block;
+  color: #fff;
+} */
 
 
 @media screen and (max-width: 768px) {
