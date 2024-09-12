@@ -54,6 +54,7 @@ hr {
     border: 1px solid var(--primary-color);
     border-radius: 50rem;
     margin: 2rem 1rem;
+    max-width: fit-content;
 }
 
 
